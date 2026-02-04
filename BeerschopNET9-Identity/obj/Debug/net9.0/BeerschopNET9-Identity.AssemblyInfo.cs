@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BeerschopNET9-Identity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c35f56444ec29520a2871febeceb69bb283507ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("BeerschopNET9-Identity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BeerschopNET9-Identity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

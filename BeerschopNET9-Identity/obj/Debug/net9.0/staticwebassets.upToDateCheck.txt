@@ -62,6 +62,8 @@ C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Beer
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\BeerschopNET9-Identity\BeerschopNET9-Identity\wwwroot\lib\jquery-validation\dist\additional-methods.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\cart.png
+wwwroot\images\trashCan.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

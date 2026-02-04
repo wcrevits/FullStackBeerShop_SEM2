@@ -1295,3 +1295,4 @@ C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Beer
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\BeerschopNET9-Identity\BeerschopNET9-Identity\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\BeerschopNET9-Identity\BeerschopNET9-Identity\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\BeerschopNET9-Identity\BeerschopNET9-Identity\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\BeerschopNET9-Identity\BeerschopNET9-Identity\obj\Debug\net9.0\BeerschopNET9-Identity.sourcelink.json

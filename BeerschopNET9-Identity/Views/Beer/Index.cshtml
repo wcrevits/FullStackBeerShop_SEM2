@@ -55,10 +55,19 @@
                 @Html.DisplayFor(modelItem => item.Image)
             </td>
             <td>
+                @*
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                *@
+                <a asp-action="Select" asp-route-id="@item.Biernr">
+
+                        <img src="~/images/cart.png" alt="shoppingcart" />
+
+                </a>            
+                
             </td>
+
         </tr>
 }
     </tbody>

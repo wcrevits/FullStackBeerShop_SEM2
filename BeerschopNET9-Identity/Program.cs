@@ -24,6 +24,7 @@ builder.Services.AddDbContext<BeerDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 //----> Dependency Injection
@@ -38,6 +39,12 @@ builder.Services.AddControllersWithViews();
 
 // Add Automapper
 builder.Services.AddAutoMapper(typeof(Program));
+
+builder.Services.AddSession(options =>
+{
+    options.Cookie.Name = "be.VIVES.Session";
+    options.IdleTimeout = TimeSpan.FromSeconds(10);
+});
 
 var app = builder.Build();
 
@@ -55,6 +62,8 @@ else
 
 app.UseHttpsRedirection();
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthorization();
 
